@@ -1,0 +1,25 @@
+package primitiveDT;
+class shap
+{
+	 int r = 5;
+	 int n=5;
+	 double area;
+     void area()
+	   {
+    	 for(int i=0;i<n;i++)
+    	 {
+		   area = 2 * Math.PI  * r * r;
+           System.out.println(" " + area);	
+           r--;
+    	 }
+	   }
+   
+}
+public class statickey
+{
+   public static void main(String args[])
+   {
+	   shap s = new shap();
+	   s.area();
+   }
+}
